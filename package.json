@@ -1,0 +1,25 @@
+{
+  "name": "college-attendance-management-system",
+  "version": "1.0.0",
+  "description": "Full-Stack College Attendance Management System built with React, Node.js, Express, MongoDB Atlas, and Tailwind CSS",
+  "scripts": {
+    "install:all": "cd server && npm install && cd ../client && npm install",
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "build:client": "cd client && npm run build",
+    "start": "cd server && npm start",
+    "seed": "cd server && npm run seed",
+    "setup:teacher": "cd server && npm run setup:teacher",
+    "setup:admin": "cd server && npm run setup:admin"
+  },
+  "keywords": [
+    "attendance",
+    "college",
+    "react",
+    "express",
+    "mongodb",
+    "tailwind"
+  ],
+  "author": "",
+  "license": "ISC"
+}
